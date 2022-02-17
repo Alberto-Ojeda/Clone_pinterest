@@ -1,0 +1,93 @@
+html{
+    size:10px;
+}
+.grid-container .item:hover button {
+display:block
+}
+
+.grid-container .item #save{
+    position: absolute;
+    margin-left: 13rem;
+    margin-top: 10%;
+    border-radius: 2rem;
+    width: 8rem;
+    height: 4rem;
+    background-color: rgba(255, 17, 17, 0.986);
+    color: white;
+   
+
+}
+.grid-container .item #save:hover{
+background-color: rgb(173, 8, 27);
+}
+
+.grid-container .item #share{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 104%;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+.grid-container .item #share2{
+    position: absolute;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 55%;
+    margin-top: 38%;
+}
+.grid-container .item #share3{
+    position: absolute;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 55%;
+    margin-top: 68%;
+}
+
+
+.grid-container .item #share:hover{
+background-color: rgba(56,53, 53, .568);
+}
+.grid-container .item #share2:hover{
+    background-color: rgba(56,53, 53, .568);
+    }
+    .grid-container .item #share3:hover{
+        background-color: rgba(56,53, 53, .568);
+        }
+.grid-container .item #option{
+    position: absolute;
+    margin-left: 18rem;
+    margin-top: 24rem;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+.grid-container .item #option2{
+    position: absolute;
+    margin-left: 18rem;
+    margin-top: 38%;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+.grid-container .item #option3{
+    position: absolute;
+    margin-left: 18rem;
+    margin-top: 68%;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.grid-container .item #option:hover{
+background-color: rgba(56,53, 53, .568);;
+}
+.grid-container .item #option2:hover{
+    background-color: rgba(56,53, 53, .568);;
+    }
+
+    .grid-container .item #option3:hover{
+        background-color: rgba(56,53, 53, .568);;
+        }

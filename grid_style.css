@@ -1,0 +1,65 @@
+html{
+    size: 10px;
+}
+:root{
+    
+    --card_height_chica:23rem;
+    --card_height_medium:33rem;
+    --card_height_big:40rem;
+    
+}
+
+.cart_C{
+    grid-row-end: span var(--card_height_chica);
+}
+.cart_M{
+    grid-row-end: span var(--card_height_medium);
+    
+}
+.cart_B{
+    grid-row-end: span var(--card_height_big);
+}
+
+.grid-container{
+  
+    display: grid;
+    padding-top: 7rem;
+    margin-left: 8rem;
+    justify-content: center;
+
+}
+.grid-container .item{
+    
+    box-sizing: border-box;
+    margin-top: 2rem;
+    position: relative;
+    cursor: zoom-in;
+    
+}
+
+
+
+.grid-container .item .capa{
+    position: absolute;
+    top: 0rem;
+    width: 23rem;
+    height: 100%;
+    background-color: rgba(56,53, 53, .568);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 2.3rem;
+   
+}
+.grid-container .item:hover> .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.grid-container .item #cards{
+ 
+    width: var(--card_height_chica);
+   
+    border-radius: 2.3rem;
+}

@@ -1,0 +1,46 @@
+html{
+    size :10px;
+}
+
+.help{
+
+ 
+
+
+}
+.helpi{
+    
+
+    
+}
+    
+.help #more{
+
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.4rem;
+    border: none;
+    background-color: rgb(255, 251, 251);    
+}
+.help #more:hover{
+    background-color: rgba(56,53, 53, .568);;
+}
+.helpi #help1:hover{
+    background-color: rgba(56,53, 53, .568);;
+}
+.helpi #help1{
+    margin-top: 10%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.4rem;
+    border: none;
+    background-color: rgb(255, 251, 251);
+}
+
+.position{
+
+    position: fixed;
+    margin-left: 126rem;
+    margin-top: -131rem;
+
+}
